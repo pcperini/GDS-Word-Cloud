@@ -31,4 +31,4 @@ The only exposed style variations are font color and family. Font family is fair
 
 1. If no color is specified, use random colors depending on the `Show dark background` flag.
 1. If a color is specified, use that color only.
-  1. If the `Vary colors slightly` flag is set, lighten or darken the color of each word, slightly, at random.
+  - If the `Vary colors slightly` flag is set, lighten or darken the color of each word, slightly, at random.
