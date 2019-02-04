@@ -1,12 +1,14 @@
 {
-  "name": "gds-word-cloud-0001",
+  "name": "gds-word-cloud",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "webpack --config webpack.config.js; cp conf.json dist/word_cloud.json; cp manifest.json dist/",
-    "deploy": "gsutil cp -a public-read dist/* gs://gds-word-cloud-0001"
+    "bundle:dev": "webpack --config webpack.config.js; cp conf.json dist/word_cloud.json; cp manifest.dev.json dist/manifest.json",
+    "bundle:prod": "webpack --config webpack.config.js; cp conf.json dist/word_cloud.json; cp manifest.prod.json dist/manifest.json",
+    "deploy:dev": "npm run bundle:dev; gsutil cp -a public-read dist/* gs://gds-word-cloud-dev",
+    "deploy:prod": "npm run bundle:prod; gsutil cp -a public-read dist/* gs://gds-word-cloud"
   },
   "keywords": [],
   "author": "",
