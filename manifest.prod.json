@@ -8,8 +8,8 @@
       "name": "word_cloud",
       "description": "Word Cloud visualization.",
       "resource": {
-        "js": "gs://gds-word-cloud/word_cloud.js",
-        "config": "gs://gds-word-cloud/word_cloud.json"
+        "js": "gs://gds-word-cloud-prod/word_cloud.js",
+        "config": "gs://gds-word-cloud-prod/word_cloud.json"
       }
     }
   ]

@@ -8,7 +8,7 @@
     "bundle:dev": "webpack --config webpack.config.js; cp conf.json dist/word_cloud.json; cp manifest.dev.json dist/manifest.json",
     "bundle:prod": "webpack --config webpack.config.js; cp conf.json dist/word_cloud.json; cp manifest.prod.json dist/manifest.json",
     "deploy:dev": "npm run bundle:dev; gsutil cp -a public-read dist/* gs://gds-word-cloud-dev",
-    "deploy:prod": "npm run bundle:prod; gsutil cp -a public-read dist/* gs://gds-word-cloud"
+    "deploy:prod": "npm run bundle:prod; gsutil cp -a public-read dist/* gs://gds-word-cloud-prod"
   },
   "keywords": [],
   "author": "",

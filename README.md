@@ -11,7 +11,7 @@ Visualize word clouds easily in Google Data Studio
 Add a community visualization with either of the GDS-Word-Cloud distributions.
 
 - **Dev**: `gs://gds-word-cloud-dev` Unstable. Changes made often.
-- **Prod**: `gs://gds-word-cloud` More stable. Should be good 👍
+- **Prod**: `gs://gds-word-cloud-prod` More stable. Should be good 👍
 
 ## Data
 
