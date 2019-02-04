@@ -1,0 +1,16 @@
+{
+  "name": "Word Cloud for Data Studio",
+  "organization": "Patrick Perini",
+  "description": "Easily generate word clouds.",
+  "devMode": true,
+  "components": [
+    {
+      "name": "word_cloud",
+      "description": "Word Cloud visualization.",
+      "resource": {
+        "js": "gs://gds-word-cloud-0001/word_cloud.js",
+        "config": "gs://gds-word-cloud-0001/word_cloud.json"
+      }
+    }
+  ]
+}

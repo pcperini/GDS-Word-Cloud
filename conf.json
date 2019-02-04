@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "id": "tata",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "texts",
+          "label": "Texts",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 5,
+            "supportedTypes": ["DEFAULT"]
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 5
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "colors",
+      "label": "Colors",
+      "elements": [
+        {
+          "id": "darkBackground",
+          "label": "Show dark background",
+          "defaultValue": "false",
+          "type": "CHECKBOX"
+        },
+        {
+          "id": "varyColors",
+          "label": "Vary text colors slightly",
+          "defaultValue": "true",
+          "type": "CHECKBOX"
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "label": "Text",
+      "elements": [
+        {
+          "id": "fontColor",
+          "label": "Font color",
+          "defaultValue": "",
+          "type": "FONT_COLOR"
+        },
+        {
+          "id": "fontFamily",
+          "label": "Font family",
+          "defaultValue": "auto",
+          "type": "FONT_FAMILY"
+        }
+      ]
+    }
+  ]
+}
