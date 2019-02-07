@@ -22,6 +22,7 @@
     "@google/dscc": "^0.2.3",
     "color": "^3.1.0",
     "parts-of-speech": "^0.3.0",
+    "scriptjs": "^2.5.9",
     "wordcloud": "^1.1.0"
   }
 }
